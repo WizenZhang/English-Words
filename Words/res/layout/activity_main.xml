@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.english.words.custom_widget.Custom_Index
+        android:id="@+id/test"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ExpandableListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:groupIndicator="@null" >
+        </ExpandableListView>
+
+        <include
+            android:id="@+id/index"
+            layout="@layout/view_index" />
+    </com.english.words.custom_widget.Custom_Index>
+
+</RelativeLayout>

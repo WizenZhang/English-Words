@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_click">#adadad</color>
+    <color name="bg_noclick">#00ffffff</color>
+    <color name="text_num_gray">#333</color>
+    <color name="text_num_write">#ffffff</color>
+        <color name="list_noclick">#ffffff</color>
+    <color name="list_click">#dedede</color>
+</resources>
